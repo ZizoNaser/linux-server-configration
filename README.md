@@ -145,7 +145,7 @@ Ubuntu 18.04 servers can use the UFW firewall to make sure only connections to c
 ```bash
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
-sudo ufw allow 50683/tcp
+sudo ufw allow 2200/tcp
 sudo ufw allow www
 sudo ufw allow ntp
 sudo ufw enable
